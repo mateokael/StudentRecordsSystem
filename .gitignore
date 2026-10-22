@@ -1,0 +1,41 @@
+# Compiled Java classes
+*.class
+
+# JAR files built from this project (keep the bundled MySQL connector)
+/dist/
+/build/
+
+# NetBeans project files
+nbproject/private/
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+nbbuild/
+nbdist/
+
+# Derby embedded database (auto-created at runtime, should not be committed)
+StudentEnrollmentDB/
+
+# NetBeans cache and user-specific settings
+.nb-gradle/
+nb-configuration.xml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IntelliJ IDEA (in case someone opens with IDEA)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/

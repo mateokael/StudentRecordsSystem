@@ -1,6 +1,17 @@
 # Student Enrollment, Grading and Record Management System
 Java Swing / AWT + JDBC + Apache Derby
 
+## Prerequisites
+Before running the project, make sure you have the following installed:
+
+| Requirement | Version | Notes |
+|---|---|---|
+| **Java JDK** | 8 or newer | [Download from Oracle](https://www.oracle.com/java/technologies/downloads/) or use OpenJDK |
+| **Apache NetBeans IDE** | 12 or newer | [Download NetBeans](https://netbeans.apache.org/front/main/download/) |
+| **Apache Derby** | 10.14 or newer | Bundled with NetBeans as "Java DB"; no separate install needed if using NetBeans |
+
+> **Note:** Derby is included with NetBeans under `Tools > Java DB`. If you're not using NetBeans, download Derby separately from [db.apache.org/derby](https://db.apache.org/derby/derby_downloads.html) and add the JARs manually (see step 3 below).
+
 ## 1. Open it in NetBeans
 1. **File > New Project > Java with Ant > Java Application**. Name it `StudentRecordsSystem`.
    **Uncheck** "Create Main Class".
